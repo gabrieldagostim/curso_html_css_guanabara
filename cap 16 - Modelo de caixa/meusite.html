@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                background-color: rgb(106, 105, 105);
+        }
+
+        header {
+            background-color: rgb(231, 230, 230);
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        nav {
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            /* box-shadow: 2px 2px 6px black */
+        }
+
+        header > nav {
+            background-color: rgb(201, 201, 201);
+            padding: 5px;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+
+
+        header > nav > a {
+            text-decoration: none;
+            margin-right: 20px;
+            border-radius: 4px;
+            border: 1px solid #323232;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 4px 8px;
+            color: #323232;
+        }
+
+        header > nav > a:hover {
+            text-decoration: none;
+            background-color: #323232;
+            border-radius: 4px;
+            border: 2px solid #050505;
+            font-size: 16px;
+            color: white;
+            font-weight: 300;
+            padding: 4px 8px;
+            
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }   
+
+        article > aside {
+            background-color: rgb(169, 169, 169);
+            font-size: 10px;
+            padding: 5px;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+
+        article > aside > abbr {
+            text-decoration: none;
+            color: #323232;
+            font-weight: 500;
+            cursor: help;
+        }
+
+        main {
+            background-color: lightgray;
+            margin-top: 20px;
+            padding: 10px 40px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #050505;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 10px;
+
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site teste</h1>
+        <nav>
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+            <a href="#">link3</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <h2>Notícia sobre o Brasil</h2>
+
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloremque qui velit laborum quod
+            temporibus suscipit voluptatum aliquam eligendi, nemo earum quia sit eaque pariatur iure molestiae.
+            Provident, deserunt! Ab! loren
+            <aside>
+                Artigo escrito por <abbr title="Artificial Inteligence">IA</abbr>.
+            </aside>
+        </article>
+        <footer>
+            <p>Desenvolvido por Gabriel dagostim do Nascimento</p>
+        </footer>
+    </main>
+    <div id="bola"></div>
+
+
+
+
+</body>
+
+</html>

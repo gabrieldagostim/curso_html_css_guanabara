@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(255, 226, 182);
+}
+
+h1 {
+    color: rgb(105, 63, 0);
+    background-color: rgb(255, 210, 142);
+    padding: 10px;
+}
+
+#principal {
+    text-align: center;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: rgb(134, 81, 0);
+}
+
+.titulo {
+    border-radius: 10px;
+    padding: 10px
+}
+
+.titulo.basico {
+    background-color: #DCFCE7;
+    color: #16A34A ;
+}
+
+.titulo.intermediario {
+    background-color: #FEF9C3;
+    color: #d6ac05 ;
+}
+
+.titulo.avancado {
+    background-color: #FEE2E2;
+    color: #DC2626 ;
+}
