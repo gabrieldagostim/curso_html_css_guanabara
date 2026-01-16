@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo Iframe</title>
+    <style>
+        .iphone {
+            position: relative;
+            width: 1000px;
+        }
+
+        .iphone img {
+            width: 100%;
+            display: block;
+        }
+
+        .tela {
+            position: absolute;
+            top: 154px;
+            left: 287px;
+            width: 302px;
+            height: 641px;
+            border-radius: 30px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mock de iPhone com iframe dentro</h1>
+
+    <div class="iphone">
+        <iframe src="https://www.cursoemvideo.com/cursos/" class="tela">
+        </iframe>
+        <img src="mock-iphone.png" alt="iPhone">
+
+    </div>
+
+            <iframe src="pagina001.html">
+        </iframe>
+</body>
+
+</html>
