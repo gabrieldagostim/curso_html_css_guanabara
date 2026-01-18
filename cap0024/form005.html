@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+
+        * {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        fieldset {
+            border-radius: 15px;
+            width: 500px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="es_bas" id="ies_bas"> <label for="ies_bas">Basquete</label> <br>
+            <input type="checkbox" name="es_ten" id="ies_ten"> <label for="ies_ten">Tennis</label> <br>
+            <input type="checkbox" name="es_ft" id="ies_ft"> <label for="ies_ft">Futebol</label> <br>
+            <input type="checkbox" name="es_e-spt" id="ies_e-spt"> <label for="ies_e-spt">E-sports</label> <br>
+            <input type="checkbox" name="es_nataçao" id="ies_nataçao"> <label for="ies_nataçao">Natação</label> <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Selecione seu sexo</legend>
+
+            <input type="radio" name="sexo" id="isxmas" value="M"><label for="ixsmas">Masculino</label><br>
+            <input type="radio" name="sexo" id="isxfem" value="F"><label for="isxfem">Feminino</label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

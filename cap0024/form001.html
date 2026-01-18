@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forulario</title>
+    <style>
+        * {
+            font-family: monospace;
+        }
+
+        body {
+            font-size: 1.1em;
+        }
+
+        .formulario {
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .botao-submit {
+            border: 1px solid black;
+            padding: 2px 20px;
+            border-radius: 3px;
+        }
+
+
+        label {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Meu primeiro formulario</h1>
+
+    <div class="formulario">
+        <form autocomplete="off" action="formulario.php">
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            <p>
+                <label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome">
+            </p>
+            <p>
+                <input type="submit" class="botao-submit" value="Enviar"></input>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
