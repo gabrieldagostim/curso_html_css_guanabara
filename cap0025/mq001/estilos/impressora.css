@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+/* estilo para impressoras */
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    line-height: 0.8;
+    text-align: justify;
+}
+
+
+menu {
+    display: None;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Esse artigo foi implesso no site do Gabriel';
+}
