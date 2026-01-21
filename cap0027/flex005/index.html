@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: lightgray;
+        }
+
+
+        div.container {
+            background-color: white;
+            height: 300px;
+            display: flex;
+            flex-flow: row nowrap;
+            border-radius: 30px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        div.item {
+            background-color: darkgray;
+            border: 2px dashed rgb(109, 109, 109);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 16px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Esse é um elemento flexbox</h1>
+
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+
+    </div>
+</body>
+</html>
