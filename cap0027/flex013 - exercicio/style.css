@@ -86,4 +86,5 @@ div.media > iframe {
     display: block;
     margin: auto;
     width: 90%;
+    max-width: 700px;
 }
